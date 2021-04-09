@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EKO Library</title>
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7c45d17b05.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class='main-wrapper'>
+        <div class='form-container'>
+            <form id='library-form' class='library-form-container' action="/">
+                <div class='form-contents'>
+                    <h1>EKO Library<i class="fas fa-smile"></i></h1>
+                    <label for="title">Title</label>
+                    <input id='title' type='text' placeholder='title..'>
+    
+                    <label for="author">Author</label>
+                    <input id='author' type='text' placeholder='author..'>
+    
+                    <label for="pages">Pages</label>
+                    <input id='pages' type='number' placeholder='pages..'>
+    
+                    <button class="submit-book" type="submit">Add Book</button>
+                </div>
+            </form>
+        </div>
+    
+        <div id='library-collection' class='library-collection-container'>
+            
+            <div class='book-card'>
+                <h2 class='book-title'>Book Title</h2>
+                <h3 class='book-author'>By Author name</h3>
+                <span class='book-pages'>How many pages</span>
+                <button class='delete-book submit-book' type='button'>Delete Book</button>
+            </div>
+        </div>
+    </div>
+
+   
+
+
+
+
+    <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>
